@@ -780,7 +780,7 @@ model_ft = model_ft.to(device)
 model_ft.eval()
 
 # 감정 분류 카테고리
-CATEGORIES = ['angry', 'anxiety', 'embarrass', 'hurt', 'joy', 'neutral', 'sad']
+CATEGORIES = ['angry', 'disgust', 'fear', 'happy', 'neutral', 'sad', 'surprise']
 
 # 이미지 전처리 함수
 def transform_image(img):
