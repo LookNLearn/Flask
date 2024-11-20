@@ -738,7 +738,7 @@ S3_URL = "https://looknlearnmodel.s3.ap-northeast-2.amazonaws.com/best_checkpoin
 
 # S3에서 모델 다운로드 함수
 def download_model():
-    local_model_path = "./new_best_checkpoint_mtcnn_kdef.pth"
+    local_model_path = os.path.basename(S3_URL)
     if not os.path.exists(local_model_path):  # 모델 파일이 없는 경우
         print("Downloading model from S3...")
         response = requests.get(S3_URL, stream=True)
