@@ -733,7 +733,8 @@ CORS(app, resources={r"/*": {"origins": "*"}})
 device = torch.device("cpu")
 
 # S3에 있는 모델 URL
-S3_URL = "https://looknlearnmodel.s3.ap-northeast-2.amazonaws.com/new_best_checkpoint_mtcnn_kdef.pth"
+# S3_URL = "https://looknlearnmodel.s3.ap-northeast-2.amazonaws.com/new_best_checkpoint_mtcnn_kdef.pth"
+S3_URL = "https://looknlearnmodel.s3.ap-northeast-2.amazonaws.com/good_best_checkpoint_mtcnn_kdef_87.pth"
 
 # S3에서 모델 다운로드 함수
 def download_model():
