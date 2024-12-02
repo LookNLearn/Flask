@@ -21,12 +21,12 @@ surprise
 Python 3.8+
 Dependencies listed in requirements.txt (to be created)
 ### Python Libraries Used
-Flask: Web framework for serving the API.//
-facenet-pytorch: For face detection using MTCNN.//
-torch: PyTorch for model inference.//
-torchvision: For pre-defined models and transformations.//
-Pillow: For image processing.//
-requests: For downloading the model from S3.//
+Flask: Web framework for serving the API.  
+facenet-pytorch: For face detection using MTCNN.  
+torch: PyTorch for model inference.  
+torchvision: For pre-defined models and transformations.  
+Pillow: For image processing.  
+requests: For downloading the model from S3.  
 flask-cors: For enabling CORS.
 
 ## Setup Instructions
