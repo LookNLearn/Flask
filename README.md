@@ -32,21 +32,21 @@ flask-cors: For enabling CORS.
 ## Setup Instructions
 ### 1. Clone the Repository
 bash
->> git clone https://github.com/your-repo/emotion-classification-flask.git
->> cd emotion-classification-flask
+> git clone https://github.com/your-repo/emotion-classification-flask.git
+> cd emotion-classification-flask
 
 ### 2. Install Dependencies
 Create a virtual environment and install the required dependencies.
->> python -m venv venv
->> source venv/bin/activate  # For Windows: venv\Scripts\activate
->> pip install -r requirements.txt
+> python -m venv venv
+> source venv/bin/activate  # For Windows: venv\Scripts\activate
+> pip install -r requirements.txt
 
 ### 3. Set Up the Model
 The application downloads the model from an S3 bucket upon the first run. Ensure the S3_URL variable in the code points to the correct model URL.
 
 ### 4. Run the Application
 Run the Flask application on 0.0.0.0:8080.
->> python app.py
+> python app.py
 
 ## Internal Workflow
 ### 1. Image Upload:
